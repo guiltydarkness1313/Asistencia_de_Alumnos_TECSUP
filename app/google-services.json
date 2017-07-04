@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "804630792281",
+    "firebase_url": "https://proyecto-final-bdav.firebaseio.com",
+    "project_id": "proyecto-final-bdav",
+    "storage_bucket": "proyecto-final-bdav.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804630792281:android:739caa1f5d94e66f",
+        "android_client_info": {
+          "package_name": "com.shibuyaxpress.asistenciadealumnostecsup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804630792281-ov8v3q667s7r1h8aqvfu02gvuihtb3gk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shibuyaxpress.asistenciadealumnostecsup",
+            "certificate_hash": "c4833e80c8cd0d64791caf4a64b2745ca04331a8"
+          }
+        },
+        {
+          "client_id": "804630792281-a5463pg39mcq520u53gp9m1kh2fkis85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNNUiUvdUQk5wZQ0jp1oXoKBfYGeZnA6U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804630792281-a5463pg39mcq520u53gp9m1kh2fkis85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
