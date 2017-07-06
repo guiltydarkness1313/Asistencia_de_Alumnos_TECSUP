@@ -52,9 +52,10 @@
                 style="@style/Widget.AppCompat.AutoCompleteTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
                 android:ems="10"
                 android:inputType="textEmailAddress"
-                android:layout_marginBottom="20dp"
+                android:text="paul.pacheco@tecsup.edu.pe"
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -69,9 +70,10 @@
                 style="@style/Widget.AppCompat.EditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
                 android:layout_marginBottom="20dp"
+                android:ems="10"
                 android:inputType="textPassword"
+                android:text="123456"
                 android:textColor="@android:color/white" />
 
             <Button
@@ -81,7 +83,9 @@
                 android:layout_height="match_parent"
                 android:onClick="IniciarSesion"
                 android:text="Iniciar Sesion"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/button_text_color"
+                android:textStyle="bold" />
         </LinearLayout>
 
     </android.support.v7.widget.CardView>

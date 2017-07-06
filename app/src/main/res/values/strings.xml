@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Asistencia de Alumnos TECSUP</string>
+    <string name="app_name">TECSUP Asistencias</string>
+    <string name="title_activity_menu_home">MenuHome</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>

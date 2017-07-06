@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.shibuyaxpress.asistenciadealumnostecsup">
 
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,7 +21,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login" />
-        <activity android:name=".menuHome"></activity>
+        <activity
+            android:name=".menuHome"
+            android:label="@string/title_activity_menu_home"
+            android:theme="@style/TEC" />
+        <activity android:name=".decodificadorQR"></activity>
     </application>
 
 </manifest>
