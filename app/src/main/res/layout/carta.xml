@@ -37,24 +37,13 @@
                     android:layout_weight="1"
                     android:text="nombre_curso" />
 
-                <TextView
-                    android:id="@+id/textView22"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="5dp"
-                    android:text="fecha:" />
-
-                <TextView
-                    android:id="@+id/fecha_registro_txt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="fecha_registro" />
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/t"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
                 android:orientation="horizontal">
 
                 <TextView

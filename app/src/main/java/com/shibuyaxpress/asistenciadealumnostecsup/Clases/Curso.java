@@ -7,6 +7,7 @@ package com.shibuyaxpress.asistenciadealumnostecsup.Clases;
 public class Curso {
     private String id;
     private String nombre;
+    private String docentes;
 
     public Curso() {
     }
@@ -25,6 +26,14 @@ public class Curso {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public String getDocentes() {
+        return docentes;
+    }
+
+    public void setDocentes(String docentes) {
+        this.docentes = docentes;
     }
 }
 
